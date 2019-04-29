@@ -1,23 +1,22 @@
 {
-  "name": "react-component-publish",
-  "version": "1.0.0",
-  "description": "A boilerplate for publishing your own react components",
+  "name": "react-fancy-components",
+  "version": "0.1.8",
+  "description": "React Fancy Components - coming soon",
   "main": "build/index.js",
   "scripts": {
     "start": "webpack --env publish --mode production --watch",
     "build": "webpack --env publish --mode production",
     "dev": "webpack-dev-server --env testServer --mode development --open"
   },
-  "author": "zxol",
+  "author": "Andrei Buntsev",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zxol/react-component-publish"
-  },
   "peerDependencies": {
     "react": "^16.7.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",

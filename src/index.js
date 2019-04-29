@@ -1,5 +1,7 @@
 import React from 'react'
+import './index.css'
+
 const MyComponent = props => {
-  return <div style={{ width: 100, height: 100, backgroundColor: 'lightblue', borderRadius: 10 }} />
+  return <div className="mystyle" />
 }
 export default MyComponent

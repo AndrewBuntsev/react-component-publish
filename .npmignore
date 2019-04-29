@@ -1,0 +1,11 @@
+node_modules/
+src/
+buildtest/
+srctest/
+
+.gitignore
+.babelrc
+.prettierrc
+webpack.config.js
+webpack.publish.js
+webpack.testServer.js
