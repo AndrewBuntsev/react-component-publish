@@ -18,6 +18,7 @@ npm start
 Edit `src/index.js` (your component)
 
 ## To view your component in isolation with a basic webpack dev server:
+
 type:
 
 ```
@@ -57,6 +58,7 @@ import MyAwesomeComponent from 'my-awesome-component'
 If you're using a hot-reload system, you should be able to observe any changes you make to your component (as long as you build them)
 
 ## To publish your component to npm
+
 Update the package.json with correct information.
 Important things to set:
 
@@ -75,7 +77,7 @@ If you have a git repo for the project, include the details:
 ```json
 "repository": {
     "type" : "git",
-    "url" : "https://github.com/zxol/react-component-publish"
+    "url" : "https://github.com/AndrewBuntsev/react-component-publish"
   },
 ```
 
@@ -88,6 +90,7 @@ npm publish
 [npm docs on publishing packages](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)
 
 ## A note on webpack configs and the dev server:
+
 There are two webpack configs.
 
 - One for building the published component `webpack.publish.js`

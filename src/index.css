@@ -1,6 +1,27 @@
-.mystyle {
-  width: 100px;
-  height: 100px;
-  background-color: #4444bb;
-  border-radius: 10px;
+.react-fancy-components-tooltip-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.react-fancy-components-tooltip-container .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #f49b42;
+  color: #000;
+  text-align: center;
+  font-style: italic;
+  border-radius: 5px;
+  padding: 5px 0;
+  top: -35px;
+  left: 150px;
+  position: absolute;
+  z-index: 1;
+}
+
+.react-fancy-components-tooltip-container:hover .tooltiptext {
+  visibility: visible;
+  transition: 5s;
+  transition-timing-function: ease-in;
+  background-color: transparent;
+  color: transparent;
 }

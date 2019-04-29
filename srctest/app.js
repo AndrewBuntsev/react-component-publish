@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MyComponent from '../src/index.js'
+import { tooltip } from '../src/index.js'
 
 const ParentWrapper = () => {
+  let TooltippedComponent = tooltip(<input />, {
+    text: 'Awesome tooltip!!'
+  })
   return (
     <div
       style={{
@@ -13,7 +16,7 @@ const ParentWrapper = () => {
         alignItems: 'center'
       }}
     >
-      <MyComponent />
+      <TooltippedComponent />
     </div>
   )
 }
